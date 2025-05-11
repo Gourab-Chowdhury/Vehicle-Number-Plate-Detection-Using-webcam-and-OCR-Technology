@@ -10,6 +10,7 @@ This is a Python-based application for detecting license plates in images or web
 - **Multi-OCR Support**: Extracts text from license plates using:
   - EasyOCR
   - PaddleOCR
+  - PaddlePaddle
   - Tesseract OCR
   - Google Vision API
 - **Image Preprocessing**: Includes resizing, grayscale conversion, noise reduction, and edge detection to enhance OCR performance.
