@@ -10,7 +10,6 @@ This is a Python-based application for detecting license plates in images or web
 - **Multi-OCR Support**: Extracts text from license plates using:
   - EasyOCR
   - PaddleOCR
-  - PaddlePaddle
   - Tesseract OCR
   - Google Vision API
 - **Image Preprocessing**: Includes resizing, grayscale conversion, noise reduction, and edge detection to enhance OCR performance.
@@ -43,13 +42,14 @@ images
   - Imutils
   - EasyOCR
   - PaddleOCR
+  - PaddlePaddle
   - Pytesseract
   - Google Cloud Vision API client
 
 Install the dependencies using pip:
 
 ```bash
-pip install opencv-python imutils easyocr paddleocr pytesseract google-cloud-vision
+pip install opencv-python imutils easyocr paddleocr paddlepaddle pytesseract google-cloud-vision
 ```
 
 ### Tesseract OCR
