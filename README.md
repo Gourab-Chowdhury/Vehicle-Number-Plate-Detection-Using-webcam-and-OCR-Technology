@@ -51,6 +51,10 @@ Install the dependencies using pip:
 ```bash
 pip install opencv-python imutils easyocr paddleocr paddlepaddle pytesseract google-cloud-vision
 ```
+or,
+```bash
+pip install -r requirements.txt
+```
 
 ### Tesseract OCR
 
